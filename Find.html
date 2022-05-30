@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="find.css">
+        <script src="https://kit.fontawesome.com/a4abcd9167.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Jost:wght@600&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Jost:wght@600&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Itim&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/a4abcd9167.js" crossorigin="anonymous"></script>
+      <title>Parapurrnalia</title>
+  </head>
+  <body>
+    <header>
+    <marquee behavior="scroll" direction="left">New stocks of clothes out now! &nbsp; &nbsp; New stocks of clothes out now! &nbsp; &nbsp; New stocks of clothes out now! &nbsp; New stocks of clothes out now! &nbsp; &nbsp; New stocks of clothes out now! &nbsp; &nbsp;</marquee>
+    <div class="Nav">
+      <nav>
+        <img class="logo" src="Logo/Logo1.png" alt="logo">
+        <ul class="nav_links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Categorydogs.html">PRODUCTS</a></li>
+          <li><a href="About.html">ABOUT US</a></li>
+        </ul>
+        <a><button type="button" class="btn" id="c-btn">Contact us</button></a>
+      </nav>
+  </div>
+</header>
+
+<div id="contact">
+  <form action="#">
+    <ul>
+      <center>
+        <img src="Logo/Logolazy.png">
+      </center>
+      <h1>LAZY WORK STUDIOS</h1>
+      <li>
+        <input type="text" name="name" id="name" placeholder="Full name">
+        <input type="email" name="email" id="email" placeholder="Email">
+      </li>
+      <li>
+        <textarea name="message" id="message" placeholder="Your message"></textarea>
+      </li>
+      <li>
+        <input type="submit" value="Send message" class="btn" id="submit">
+      </li>
+    </ul>
+  </form>
+</div>
+
+<div id="tnc">
+  <form action="#">
+    <center>
+			<iframe src="terms_and_condition.pdf" width="100%" height="500px"></iframe>
+		</center>
+  </form>
+</div>
+
+    <div id="divfind">
+      <ul id="find">
+        <a href="Find.html">
+         <li>
+          <div id="active">
+            Find
+          </div>
+         </li>
+        </a>
+      </ul>
+    </div>
+
+    <div id="cabu">
+       <ul id="forcdr">
+         <a href="Categorycats.html">
+           <li>
+            <div id="c">
+              Cats
+            </div>
+          </li>
+         </a>
+
+          <a href="Categorydogs.html">
+           <li>
+            <div id="d">
+              Dogs
+            </div>
+           </li>
+          </a>
+
+
+           <li>
+            <a href ="Categoryrabbits.html">
+            <div id="r">
+              Rabbit
+            </div>
+          </a>
+           </li>
+       </ul>
+
+    </div>
+
+
+    <center>
+    <div id="yesss">
+      <div id="searchWrapper">
+        <input
+          type="text"
+          name="searchBar"
+          id="searchBar"
+          placeholder="Search for an item"
+          onkeyup="search()"
+        />
+      </div>
+
+      <div id="firstcate" class="cfo1 products">
+        <p id="f1">
+           Fancy Feasts
+        <p id="price">
+          ₱125
+        </p>
+        <p id ="st">
+          Stock: 42
+        </p>
+      </div>
+
+      <div id="firstcate" class ="cfo2 products">
+        <p id="f1">
+          Whiskas
+        </p>
+        <p id="price">
+          ₱200
+        </p>
+        <p id="st">
+          Stock: 56
+        </p>
+      </div>
+
+      <div id="firstcate" class="cfo3 products">
+        <p id="f1">
+          Feline pretty bowl
+        </p>
+        <p id="price">
+          ₱350
+        </p>
+        <p id ="st">
+          Stock: 4
+        </p>
+      </div>
+
+      <div id="firstcate" class="cfo4 products">
+        <p id="f1">
+          Peeky bowl deluxe
+        </p>
+        <p id="price">
+          ₱700
+        </p>
+        <p id ="st">
+          Stock: 14
+        </p>
+      </div>
+
+
+
+      <div id="firstcate" class="dfo1 products">
+        <p id="f1">
+           Pedigree
+        <p id="price">
+          ₱250
+        </p>
+        <p id ="st">
+          Stock: 56
+        </p>
+      </div>
+
+      <div id="firstcate" class ="dfo2 products">
+        <p id="f1">
+          Cesar Mignon
+        </p>
+        <p id="price">
+          ₱200
+        </p>
+        <p id="st">
+          Stock: 42
+        </p>
+      </div>
+
+      <div id="firstcate" class="dfo3 products">
+        <p id="f1">
+          Kibbles n' Bits
+        </p>
+        <p id="price">
+          ₱300
+        </p>
+        <p id ="st">
+          Stock: 64
+        </p>
+      </div>
+
+      <div id="firstcate" class="dfo4 products">
+        <p id="f1">
+          Bony Bowl
+        </p>
+        <p id="price">
+          ₱400
+        </p>
+        <p id ="st">
+          Stock: 20
+        </p>
+      </div>
+
+
+
+      <div id="firstcate" class="rfo1 products">
+        <p id="f1">
+           Science Selective
+        <p id="price">
+          ₱600
+        </p>
+        <p id ="st">
+          Stock: 23
+        </p>
+      </div>
+
+      <div id="firstcate" class ="rfo2 products">
+        <p id="f1">
+          Encore Premium
+        </p>
+        <p id="price">
+          ₱550
+        </p>
+        <p id="st">
+          Stock: 42
+        </p>
+      </div>
+
+      <div id="firstcate" class="rfo3 products">
+        <p id="f1">
+          Purina Proffesional
+        </p>
+        <p id="price">
+          ₱1250
+        </p>
+        <p id ="st">
+          Stock: 45
+        </p>
+      </div>
+
+      <div id="firstcate" class="rfo4 products">
+        <p id="f1">
+          Pink water dispenser
+        </p>
+        <p id="price">
+          ₱355
+        </p>
+        <p id ="st">
+          Stock: 60
+        </p>
+      </div>
+
+
+
+      <div id ="seccate" class="cs1 products">
+        <div id="c1">
+          Proud Pawrents
+        </div>
+        <p id="price">
+          ₱600
+        </p>
+        <p id="st">
+          Stock: 22
+        </p>
+      </div>
+
+      <div id ="seccate" class="cs2 products">
+        <div id="c1">
+          Snuggle Sweater
+        </div>
+        <p id="price">
+          ₱900
+        </p>
+        <p id="st">
+          Stock: 16
+        </p>
+      </div>
+
+      <div id ="seccate" class="cs3 products">
+        <div id="c1">
+          Fish Bone Gang Elite
+        </div>
+        <p id="price">
+          ₱1500
+        </p>
+        <p id="st">
+          Stock: 17
+        </p>
+      </div>
+
+      <div id ="seccate" class="cs4 products">
+        <div id="c1">
+          Leafy Fall
+        </div>
+        <p id="price">
+          ₱700
+        </p>
+        <p id="st">
+          Stock: 24
+        </p>
+      </div>
+
+
+
+      <div id ="seccate" class="ds1 products">
+        <div id="c1">
+          Rufferee
+        </div>
+        <p id="price">
+          ₱550
+        </p>
+        <p id="st">
+          Stock: 35
+        </p>
+      </div>
+
+      <div id ="seccate" class="ds2 products">
+        <div id="c1">
+          Addidog
+        </div>
+        <p id="price">
+          ₱800
+        </p>
+        <p id="st">
+          Stock: 47
+        </p>
+      </div>
+
+      <div id ="seccate" class="ds3 products">
+        <div id="c1">
+          Princess Punkstar
+        </div>
+        <p id="price">
+          ₱2000
+        </p>
+        <p id="st">
+          Stock: 28
+        </p>
+      </div>
+
+      <div id ="seccate" class="ds4 products">
+        <div id="c1">
+          Monsieur Le Petite
+        </div>
+        <p id="price">
+          ₱1500
+        </p>
+        <p id="st">
+          Stock: 2
+        </p>
+      </div>
+
+
+
+      <div id ="seccate" class="rs1 products">
+        <div id="c1">
+          Bunny maid senpai
+        </div>
+        <p id="price">
+          ₱2400
+        </p>
+        <p id="st">
+          Stock: 12
+        </p>
+      </div>
+
+      <div id ="seccate" class="rs2 products">
+        <div id="c1">
+          Bunny rainbow
+        </div>
+        <p id="price">
+          ₱600
+        </p>
+        <p id="st">
+          Stock: 22
+        </p>
+      </div>
+
+      <div id ="seccate" class="rs3 products">
+        <div id="c1">
+          Underwater bunny
+        </div>
+        <p id="price">
+          ₱800
+        </p>
+        <p id="st">
+          Stock: 32
+        </p>
+      </div>
+
+      <div id ="seccate" class="rs4 products">
+        <div id="c1">
+          BunBun Coat Bunny
+        </div>
+        <p id="price">
+          ₱700
+        </p>
+        <p id="st">
+          Stock: 24
+        </p>
+      </div>
+
+
+
+      <div id ="thirdcate" class="ct1 products">
+        <div id="ty1">
+          The cat fun bundle
+        </div>
+        <p id="price">
+          ₱1500
+        </p>
+        <p id="st">
+          Stock: 4
+        </p>
+      </div>
+
+      <div id ="thirdcate" class="ct2 products">
+        <div id="ty1">
+           The Chew ball
+        </div>
+        <p id="price">
+          ₱200
+        </p>
+        <p id="st">
+          Stock: 24
+        </p>
+        </div>
+
+        <div id ="thirdcate" class="ct3 products">
+         <div id="ty1">
+           Yoyo Cat
+         </div>
+         <p id="price">
+          ₱250
+        </p>
+         <p id="sto">
+          Stock: 0
+        </p>
+       </div>
+
+       <div id ="thirdcate" class="ct4 products">
+        <div id="ty1">
+           Squeaky Whisker
+        </div>
+        <p id="price">
+          ₱55
+        </p>
+        <p id="st">
+         Stock: 45
+       </p>
+      </div>
+
+
+
+      <div id ="thirdcate" class="dt1 products">
+        <div id="ty1">
+          Tug of woof
+        </div>
+        <p id="price">
+          ₱400
+        </p>
+        <p id="st">
+          Stock: 4
+        </p>
+      </div>
+
+      <div id ="thirdcate" class="dt2 products">
+        <div id="ty1">
+           Purple Purball
+        </div>
+        <p id="price">
+          ₱180
+        </p>
+        <p id="st">
+          Stock: 24
+        </p>
+        </div>
+
+        <div id ="thirdcate" class="dt3 products">
+         <div id="ty1">
+           Jaw breaker
+         </div>
+         <p id="price">
+          ₱220
+        </p>
+         <p id="sto">
+          Stock: 6
+        </p>
+       </div>
+
+       <div id ="thirdcate" class="dt4 products">
+        <div id="ty1">
+           Arf arf Fundle
+        </div>
+        <p id="price">
+          ₱2000
+        </p>
+        <p id="st">
+         Stock: 25
+       </p>
+      </div>
+
+
+
+      <div id ="thirdcate" class="rt1 products">
+        <div id="ty1">
+          All Purpose Carrot
+        </div>
+        <p id="price">
+          ₱800
+        </p>
+        <p id="st">
+          Stock: 6
+        </p>
+      </div>
+
+      <div id ="thirdcate" class="rt2 products">
+        <div id="ty1">
+          The rabbit hole
+        </div>
+        <p id="price">
+          ₱1500
+        </p>
+        <p id="st">
+          Stock: 28
+        </p>
+        </div>
+
+        <div id ="thirdcate" class="rt3 products">
+         <div id="ty1">
+           Bunny Bundle
+         </div>
+         <p id="price">
+          ₱1750
+        </p>
+         <p id="sto">
+          Stock: 17
+        </p>
+       </div>
+
+       <div id ="thirdcate" class="rt4 products">
+        <div id="ty1">
+           8 pc Straw Ball
+        </div>
+        <p id="price">
+          ₱500
+        </p>
+        <p id="st">
+         Stock: 16
+       </p>
+      </div>
+    </div>
+    </center>
+<div class="Footer"><br><br>
+  <center>
+    <h3>© 2022 PARAPURRNALIA ALL RIGHTS RESERVED.</h3><br><br>
+    <h3><button type="button" class="btn" id="tnc-btn">Terms and Condition</button></h3><br><br>
+    <a href="https://www.facebook.com/Parapurrnalia-104492698942592/"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://twitter.com/TestRun73689448"><i class="fa-brands fa-twitter"></i></a>
+    <a href="tel:(736) 317-6676"><i class="fa-solid fa-phone"></i></a>
+    <a href="mailto:someone@example.com"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://www.instagram.com/parapurrnalia062020/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+    <br><br><br>
+  </center>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="find.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+<script>
+
+(function(){
+  $('html').addClass('js');
+
+  var contactForm = {
+    container: $('#contact'),
+    config: {
+      effect: 'slideToggle',
+      speed: 200
+    },
+
+    init: function(config){
+      $.extend(this.config, config);
+
+      $('#c-btn').on('click', this.show);
+    },
+
+    show: function(){
+      var cf = contactForm,
+          container = cf.container,
+          config = cf.config;
+
+
+      if(container.is(':hidden')){
+        cf.close.call(container);
+        container[config.effect]
+        (config.speed);
+      }
+    },
+
+    close: function(){
+      var $this = $('#contact');
+
+      if($this.find('span.close').length) return;
+
+      $('<span class=close>-</span>')
+        .prependTo(this)
+        .on('click', function(){
+        $this[contactForm.config.effect](contactForm.config.speed);
+      })
+    }
+  };
+
+contactForm.init({
+  effect: 'fadeToggle',
+  speed: 200
+});
+})();
+
+//TERMS AND CONDITION
+
+(function(){
+  $('html').addClass('js');
+
+  var contactForm = {
+    container: $('#tnc'),
+    config: {
+      effect: 'slideToggle',
+      speed: 200
+    },
+
+    init: function(config){
+      $.extend(this.config, config);
+
+      $('#tnc-btn').on('click', this.show);
+    },
+
+    show: function(){
+      var cf = contactForm,
+          container = cf.container,
+          config = cf.config;
+
+
+      if(container.is(':hidden')){
+        cf.close.call(container);
+        container[config.effect]
+        (config.speed);
+      }
+    },
+
+    close: function(){
+      var $this = $('#tnc');
+
+      if($this.find('span.close').length) return;
+
+      $('<span class=close>-</span>')
+        .prependTo(this)
+        .on('click', function(){
+        $this[contactForm.config.effect](contactForm.config.speed);
+      })
+    }
+  };
+
+contactForm.init({
+  effect: 'fadeToggle',
+  speed: 200
+});
+})();
+
+var navbar = document.querySelector('nav')
+
+window.onscroll = function() {
+
+  // pageYOffset or scrollY
+  if (window.pageYOffset > 0) {
+    navbar.classList.add('scrolled')
+  } else {
+    navbar.classList.remove('scrolled')
+  }
+}
+</script>
+  </body>
+</html>
